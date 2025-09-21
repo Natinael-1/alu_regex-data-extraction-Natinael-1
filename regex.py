@@ -16,7 +16,7 @@ reg6 = re.compile(r"<[a-zA-Z]+[^>]*>")
 #regex for currency amounts
 reg7 = re.compile(r"\$\d+(?:[,.]\d+)?\.?\d+\s")
 
-#defining a function called match_finder to take input from user and check mathes
+#defining a function called match_finder to take input from user and check matches
 def match_finder():
     while True:
         print("1.Input email, URL, Phone_number, time, credit card num, html tags, and currency")
