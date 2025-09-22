@@ -38,42 +38,49 @@ def match_finder():
                         print("----Valid email✅---")
                     else:
                         print("----Invalid email❌----")
+                        print("see example; natinaelboda@gmail.com, natinael34@outlook.com")
                 if find == "2":
                     url = input("Please input URL: ") 
                     if reg2.fullmatch(url):
                         print("----Valid URL✅-----")
                     else:
                         print("----Invalid URL❌----")
+                        print("see example; https://www.google.com, https://www.wikipedia.org/")
                 if find == "3":
                     phone_num = input("Please input phone_number: ")
                     if reg3.fullmatch(phone_num):
                         print("----Valid phone number✅----")
                     else:
                         print("----Invalid phone number❌----")
+                        print("see example; 456-123-7890, (456) 123-7890")
                 if find == "4":
                     tme = input("Please input time: ")
                     if reg4.fullmatch(tme):
                         print("----Valid time format✅----")
                     else:
                         print("----Invalid time format❌----")
+                        print("see example; 22: 40, 4:50 am, 12: 30 pm")
                 if find == "5":
                     credit_card = input("Please enter credit card number: ")
                     if reg5.fullmatch(credit_card):
                         print("----Valid credit card number✅----")
                     else:
                         print("----Invalid credit card number❌----")
+                        print("see example; 3456 9012 5678 1234, 3456-9012-5678-1234")
                 if find == "6":
                     tags = input("Please enter html tag: ")
                     if reg6.fullmatch(tags):
                         print("----Valid html tags✅----")
                     else:
                         print("----Invalid html tags❌----")
+                        print('see example; <main>, <a>, <a href="https://www.google.com"')
                 if find == "7":
                     currency = input("Please input currency: ")
                     if reg7.fullmatch(currency):
                         print("----Valid currency✅----")
                     else:
                         print("----Invalid currency❌----")
+                        print("see example; $0, $23.00, $12,345.545")
                 if find == "8":
                     break           
         
